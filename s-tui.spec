@@ -1,7 +1,7 @@
 Summary:	Terminal-based CPU stress and monitoring utility
 Name:		s-tui
 Version:	1.1.3
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Applications/System
 #Source0Download: https://pypi.org/simple/s-tui/
@@ -12,6 +12,7 @@ BuildRequires:	python3-modules
 BuildRequires:	python3-setuptools
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.720
+Requires:	python3-devel-tools
 Suggests:	stress
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
