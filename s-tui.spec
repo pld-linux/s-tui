@@ -8,6 +8,7 @@ Group:		Applications/System
 Source0:	https://files.pythonhosted.org/packages/source/s/s-tui/%{name}-%{version}.tar.gz
 # Source0-md5:	4a5d8fe4fbdded6ee2e73d5272ee9d86
 URL:		https://amanusk.github.io/s-tui/
+BuildRequires:	python3
 BuildRequires:	python3-modules
 BuildRequires:	python3-setuptools
 BuildRequires:	rpm-pythonprov
